@@ -101,7 +101,42 @@ h3 {
 
 .list {
     background-color: #00558C ; 
-    height: 500px
-    padding: 800px 550px;
+    height: auto;
+    padding: 28px;
+    display: flex;
+    justify-content: space-between;
 
+}
+
+.contact {
+   display: flex;
+   flex-direction: column;
+}
+
+.contact-1 {
+    display: flex;
+ }
+
+.text-contact {
+    text-align: center;
+    height: 60px;
+    padding-left: 35px;
+    margin: 0;
+}
+
+.img-footer {
+     width: 205 px;
+     display: flex;
+     align-items: center;
+}
+
+.loc {
+    width: 280px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.img-loc {
+    padding-right: 10px;
+    
 }
